@@ -14,15 +14,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="TextView"
+        android:text="@string/mainTitle"
         android:textColor="@android:color/black"
         android:textSize="20sp"
-        tools:text="Make everyday decisions easier!"/>
+        tools:text="@string/mainTitle"/>
 
     <ImageView
         android:id="@+id/image_eightBall"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#3F51B5"
-        android:text="Ask"
+        android:text="@string/btnAskTitle"
         android:textColor="@android:color/white"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="59dp"
